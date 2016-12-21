@@ -1,0 +1,32 @@
+* {
+  text-align: justify;
+  text-align: center;
+  font-family: Calibri;
+}
+body {
+  background-color: #e0e0d1;
+}
+.heading {
+  color: #ff0000;
+  font-size: 60px;
+}
+
+.image2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    -webkit-animation:spin 20s linear infinite;
+    -moz-animation:spin 20s linear infinite;
+    animation:spin 20s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+
+.First-Paragraph {
+  font-size: 24px;
+  font-style: bold;
+}
